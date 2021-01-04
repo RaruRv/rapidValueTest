@@ -1,0 +1,66 @@
+.user-list{
+  background-color: #76da82;
+  /* width: 400px; */
+  height: 55px;
+  text-align: left;
+  margin: 5px 10px;
+}
+.user-list:first-child{
+  margin-top: 10px;
+}
+.user-list:last-child{
+  margin-bottom: 10px;
+}
+.user-list>div, .breadcrumb>div{
+  display: inline-block;
+}
+
+h4{
+  margin: 0px;
+}
+.dp{
+  padding: 0px 5px;
+  vertical-align: bottom;
+}
+.user-list-h{
+  width: 400px;
+}
+.btn{
+
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+}
+.btn-primary{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.breadcrumb{
+  /* width: 100%; */
+  text-align: left;
+  margin: 10px;
+  background-color: #dcffe0;
+  height: 55px;
+}
+.go-back-btn{
+  float: right;
+  padding: 10px;
+}
+.breadcrumb-h{
+  padding: 10px;
+}
+.user-info{
+  text-align: left;
+  background-color: #88fb95;
+  padding: 5px 10px;
+  margin: 10px;
+}
